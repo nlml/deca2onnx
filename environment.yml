@@ -42,5 +42,6 @@ dependencies:
     - flask
     - yacs
     - face_alignment==1.2.0
+    - gdown
     - git+https://github.com/mattloper/chumpy@9b045ff5d6588a24a0bab52c83f032e2ba433e17
     - git+https://github.com/facebookresearch/pytorch3d.git@e13848265d9d57927fca99d13061e8fba8d468d0
