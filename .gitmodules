@@ -1,3 +1,4 @@
 [submodule "DECA"]
 	path = DECA
 	url = https://github.com/yadiraf/DECA
+	ignore = dirty
