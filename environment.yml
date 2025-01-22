@@ -1,0 +1,46 @@
+name: deca2onnx
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch=2.5.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - ca-certificates
+  - openssl
+  - ipykernel
+  - certifi
+  - cuda=12.1
+  - cuda-toolkit=12.1
+  - ninja
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu121
+    - onnx==1.17.0
+    - onnxruntime==1.19.2
+    - tensorboard==2.18.0
+    - pre-commit==4.0.1
+    - matplotlib==3.9.2
+    - matplotlib-inline
+    - tyro==0.8.14
+    - lightning==2.4.0
+    - pytorch-lightning==2.4.0
+    - pyrender==0.1.45
+    - mediapipe==0.10.15
+    - roma==1.5.0
+    - timm==1.0.11
+    - einops==0.8.0
+    - kornia==0.7.3
+    - jupyterlab
+    - viser
+    - boto3
+    - pandas
+    - service_streamer
+    - flask
+    - yacs
+    - face_alignment==1.2.0
+    - git+https://github.com/mattloper/chumpy@9b045ff5d6588a24a0bab52c83f032e2ba433e17
+    - git+https://github.com/facebookresearch/pytorch3d.git@e13848265d9d57927fca99d13061e8fba8d468d0
